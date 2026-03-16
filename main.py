@@ -7,9 +7,10 @@ while counter==1:
     print("\nSales menu\n")
     buys = register_sale()
     total.append(buys)
+    
     try:
         end= int(input("1- finish\n"
-                    "2- enter new sale"))
+                      "2- enter new sale"))
         if end == 1:
             counter =2
             x= calculate_total(total)
